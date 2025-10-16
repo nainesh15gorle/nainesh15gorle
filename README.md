@@ -14,7 +14,7 @@
  
  🌱 I’m currently learning **React, SQL**
 
- 💬 Ask me about **[Web Development  Ideas](https://github.com/nainesh15gorle)**
+ 💬 Ask me about **[Web Ideas](https://github.com/nainesh15gorle)**
 
  ⚡ Fun fact **I am a Coder**
 
@@ -44,13 +44,11 @@
 <br/>
 <hr/>
 
+<!-- 🐍 My Contributions Section -->
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  
-  <!-- 🐍 contribution snake animation -->
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/nainesh15gorle/nainesh15gorle/output/github-contribution-grid-snake.svg" />
-  
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
   <br/><br/><br/>
 </div>
 
