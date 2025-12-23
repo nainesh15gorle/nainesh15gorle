@@ -27,7 +27,7 @@
   <a href="https://www.linkedin.com/in/nainesh-gorle-156771324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://nainesh15gorle.github.io/nainesh-portfolio/" target="_blank">
+  <a href="https://naineshportsite.vercel.app" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" />
   </a>
 </div>
