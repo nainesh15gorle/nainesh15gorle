@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="340"
+     viewBox="0 0 1400 340">
+
+    <!-- Background -->
+    <rect width="1400" height="340" fill="#000000"/>
+
+    <!-- Dot Grid -->
+    <defs>
+        <pattern id="dots"
+                 width="24"
+                 height="24"
+                 patternUnits="userSpaceOnUse">
+            <circle
+                cx="12"
+                cy="12"
+                r="1.4"
+                fill="#2B2B2B"/>
+        </pattern>
+    </defs>
+
+    <rect
+        width="1400"
+        height="340"
+        fill="url(#dots)"/>
+
+    <!-- Main Card -->
+    <rect
+        x="20"
+        y="20"
+        width="1360"
+        height="300"
+        rx="30"
+        fill="#0B0B0B"
+        stroke="#2B2B2B"
+        stroke-width="2"/>
+
+    <!-- LED Glow -->
+    <circle
+        cx="90"
+        cy="60"
+        r="14"
+        fill="white"
+        opacity=".10"/>
+
+    <!-- Animated LED -->
+    <circle
+        cx="90"
+        cy="60"
+        r="7"
+        fill="white">
+
+        <animate
+            attributeName="opacity"
+            values="1;.25;1"
+            dur="1.2s"
+            repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- Title -->
+    <text
+        x="110"
+        y="67"
+        fill="white"
+        font-size="22"
+        font-family="monospace"
+        font-weight="bold">
+
+        CONTRIBUTION MATRIX
+
+    </text>
+
+    <!-- Version -->
+    <text
+        x="1310"
+        y="67"
+        fill="#666666"
+        font-size="15"
+        font-family="monospace"
+        text-anchor="end">
+
+        v2.0
+
+    </text>
+
+    <!-- Divider -->
+    <line
+        x1="80"
+        y1="95"
+        x2="1320"
+        y2="95"
+        stroke="#2B2B2B"/>
+
+    <!-- Status -->
+    <text
+        x="120"
+        y="135"
+        fill="#A0A0A0"
+        font-size="18"
+        font-family="monospace">
+
+        SYSTEM STATUS
+
+    </text>
+
+    <!-- GitHub Streak -->
+    <circle cx="140" cy="170" r="5" fill="white">
+        <animate
+            attributeName="opacity"
+            values="1;.3;1"
+            dur="1.5s"
+            repeatCount="indefinite"/>
+    </circle>
+
+    <text
+        x="165"
+        y="176"
+        fill="white"
+        font-size="16"
+        font-family="monospace">
+
+        GitHub Streak
+
+    </text>
+
+    <text
+        x="1230"
+        y="176"
+        fill="#A0A0A0"
+        text-anchor="end"
+        font-size="16"
+        font-family="monospace">
+
+        ACTIVE
+
+    </text>
+
+    <!-- Snake -->
+    <circle cx="140" cy="205" r="5" fill="white">
+        <animate
+            attributeName="opacity"
+            values=".3;1;.3"
+            dur="1.5s"
+            repeatCount="indefinite"/>
+    </circle>
+
+    <text
+        x="165"
+        y="211"
+        fill="white"
+        font-size="16"
+        font-family="monospace">
+
+        Snake Animation
+
+    </text>
+
+    <text
+        x="1230"
+        y="211"
+        fill="#A0A0A0"
+        text-anchor="end"
+        font-size="16"
+        font-family="monospace">
+
+        RUNNING
+
+    </text>
+
+    <!-- Auto Update -->
+    <circle cx="140" cy="240" r="5" fill="white">
+        <animate
+            attributeName="opacity"
+            values="1;.3;1"
+            dur="2s"
+            repeatCount="indefinite"/>
+    </circle>
+
+    <text
+        x="165"
+        y="246"
+        fill="white"
+        font-size="16"
+        font-family="monospace">
+
+        Auto Update
+
+    </text>
+
+    <text
+        x="1230"
+        y="246"
+        fill="#A0A0A0"
+        text-anchor="end"
+        font-size="16"
+        font-family="monospace">
+
+        ENABLED
+
+    </text>
+
+    <!-- Divider -->
+    <line
+        x1="90"
+        y1="270"
+        x2="1310"
+        y2="270"
+        stroke="#2B2B2B"/>
+
+    <!-- Footer -->
+    <text
+        x="700"
+        y="300"
+        fill="#BBBBBB"
+        font-size="18"
+        font-family="monospace"
+        text-anchor="middle">
+
+        KEEP BUILDING • KEEP LEARNING • KEEP SHIPPING
+
+    </text>
+
+</svg>
